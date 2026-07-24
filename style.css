@@ -170,3 +170,39 @@ nav ul{
 }
 
 }
+/* ===========================
+   BEAUTIFUL COURSES MARQUEE
+=========================== */
+
+.marquee-container{
+    width:100%;
+    overflow:hidden;
+    background:linear-gradient(90deg,#002147,#004aad,#002147);
+    border-top:3px solid gold;
+    border-bottom:3px solid gold;
+    padding:12px 0;
+    margin:20px 0;
+}
+
+.marquee{
+    display:inline-block;
+    white-space:nowrap;
+    color:white;
+    font-size:20px;
+    font-weight:bold;
+    animation:marquee 22s linear infinite;
+}
+
+.marquee:hover{
+    animation-play-state:paused;
+    color:#FFD700;
+}
+
+@keyframes marquee{
+    0%{
+        transform:translateX(100%);
+    }
+    100%{
+        transform:translateX(-100%);
+    }
+}
