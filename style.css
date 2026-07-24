@@ -390,3 +390,38 @@ footer {
     text-align:center;
     padding:25px;
 }
+.sermons {
+    padding: 40px;
+    background: #f5f5f5;
+}
+
+.sermon-card {
+    background: white;
+    margin: 25px auto;
+    padding: 30px;
+    border-radius: 15px;
+    max-width: 900px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+.sermon-card h3 {
+    color: #6b4f00;
+    font-size: 28px;
+}
+
+.sermon-card h4 {
+    color: #333;
+    margin-top: 20px;
+}
+
+.sermon-card p {
+    line-height: 1.8;
+    font-size: 17px;
+}
+
+.hero {
+    text-align: center;
+    padding: 60px;
+    background: linear-gradient(120deg,#8e6b23,#d4af37);
+    color:white;
+}
