@@ -762,3 +762,64 @@ footer {
     padding: 20px;
 }
 ```
+```css
+.contact-hero {
+    text-align: center;
+    padding: 70px 20px;
+}
+
+
+.contact-hero h1 {
+    font-size: 45px;
+}
+
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 40px 20px;
+    flex-wrap: wrap;
+}
+
+
+.contact-card {
+    width: 280px;
+    padding: 25px;
+    text-align: center;
+    border-radius: 15px;
+    background: #f4f4f4;
+}
+
+
+.message-box {
+    max-width: 600px;
+    margin: auto;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+
+.message-box input,
+.message-box textarea {
+    width: 90%;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+
+.message-box textarea {
+    height: 120px;
+}
+
+
+.message-box button {
+    padding: 15px 30px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+```
