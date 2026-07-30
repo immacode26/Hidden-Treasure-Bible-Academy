@@ -709,3 +709,56 @@ font-size:32px;
 
 
 }
+```css
+marquee {
+    background: #222;
+    color: white;
+    padding: 12px;
+    font-size: 18px;
+}
+
+
+.study-banner {
+    text-align: center;
+    padding: 70px 20px;
+}
+
+
+.study-banner h1 {
+    font-size: 45px;
+}
+
+
+.study-banner p {
+    font-size: 20px;
+}
+
+
+.study-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 40px 20px;
+    flex-wrap: wrap;
+}
+
+
+.study-card {
+    width: 280px;
+    padding: 25px;
+    text-align: center;
+    border-radius: 15px;
+    background: #f4f4f4;
+}
+
+
+.study-card h2 {
+    margin-bottom: 15px;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
+```
